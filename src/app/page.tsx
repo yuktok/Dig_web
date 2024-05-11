@@ -34,7 +34,6 @@ export default function Home() {
                   src="https://open.spotify.com/embed/playlist/37i9dQZF1DXafb0IuPwJyF?utm_source=generator"
                   width="200%"
                   height="152"
-                  frameBorder="0"
                   allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
@@ -84,8 +83,6 @@ export default function Home() {
                       src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0ciAAyw9ZkU?utm_source=generator"
                       width="200%"
                       height="152"
-                      frameBorder="0"
-                      allowfullscreen=""
                       allow="autoplay;
                       clipboard-write;
                       encrypted-media;
