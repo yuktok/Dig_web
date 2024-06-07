@@ -14,10 +14,10 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: RootLayoutProps) {/*fff*/
   return (
     <>
-      <html lang="ja" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning>
         <head />
         <body>
           <ThemeProvider
