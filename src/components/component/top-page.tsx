@@ -385,7 +385,11 @@ export function TopPage() {
   )
 }
 
-function GlobeIcon(props) {
+import React from 'react';
+
+interface IconProps extends React.SVGAttributes<SVGElement> {}
+
+function GlobeIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -407,7 +411,7 @@ function GlobeIcon(props) {
 }
 
 
-function MusicIcon(props) {
+function MusicIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -429,7 +433,7 @@ function MusicIcon(props) {
 }
 
 
-function PlayIcon(props) {
+function PlayIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -449,7 +453,7 @@ function PlayIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -470,7 +474,7 @@ function SearchIcon(props) {
 }
 
 
-function StarIcon(props) {
+function StarIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -490,7 +494,7 @@ function StarIcon(props) {
 }
 
 
-function TrendingUpIcon(props) {
+function TrendingUpIcon(props: IconProps) {
   return (
     <svg
       {...props}

@@ -114,7 +114,6 @@ export default function Home() {
                   <span className="text-sm">Worldwide</span>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
